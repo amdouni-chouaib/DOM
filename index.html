@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link type="text/css" rel="stylesheet" href="./src/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+
+    <title>Shop Panel</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.1min30.com/wp-content/uploads/2018/06/Embl%C3%A8me-NVIDIA.jpg">
+
+</head>
+
+<body id="main-body">
+    <!-- main header -->
+    <header class="card-header">
+        <img src="https://cdn.1min30.com/wp-content/uploads/2018/06/Logo-NVIDIA-1.jpg" alt="Nvidea">
+        <h4>Welcome to our shop</h4>
+    </header>
+    <!-- end of section -->
+    <!-- shop cards -->
+    <section class="first-card">
+        <div id="description">
+            <h4>quantity</h4>
+            <h4>Prix</h4>
+            <h4>Total</h4>
+        </div>
+        <div class="quantity" id="main-quantity">
+            <p>Do you want to By This ?</p>
+            <button class="heart-btn" type="button"><i class="far fa-heart heart"></i></button>
+            <img src="https://assets.nvidia.partners/images/png/nvidia-geforce-rtx-3060-ti.png" alt="RTX 3060">
+            <button class="btn minus-btn " type="button"><i class="fa fa-minus-circle"></i></button>
+            <input type="text" id="qtn" value="1">
+            <button class="btn plus-btn" type="button"><i class="fa fa-plus-circle"></i></button>
+            <div class="total-price">
+                <span><i class="fa fa-dollar"></i></span>
+                <p class="price">350DT</p>
+            </div>
+            <div class="PRAf">
+                <p>350</p>
+            </div>
+            <button><i class="fa fa-trash removeAll"></i></button>
+        </div>
+
+
+        <div class="quantity" id="main-quantity">
+            <p>Do you want to By This ?</p>
+            <button class="heart-btn" type="button"><i class="far fa-heart heart"></i></button>
+            <img src="https://assets.nvidia.partners/images/png/nvidia-geforce-rtx-3080.png" alt="RTX 3080">
+            <button class="btn minus-btn " type="button"><i class="fa fa-minus-circle"></i></button>
+            <input type="text" class="qtn" value="1">
+            <button class="btn plus-btn" type="button"><i class="fa fa-plus-circle"></i></button>
+            <div class="total-price">
+                <span><i class="fa fa-dollar"></i></span>
+                <p class="price">400DT</p>
+            </div>
+            <div class="PRAf">
+                <p>400</p>
+            </div>
+            <button><i class="fa fa-trash removeAll"></i></button>
+        </div>
+        </div>
+
+
+        <div class="quantity" id="main-quantity">
+            <p>Do you want to By This ?</p>
+            <button class="heart-btn" type="button"><i class="far fa-heart heart"></i></button>
+            <img src="https://assets.nvidia.partners/images/png/nvidia-geforce-rtx-3090.png" alt="RTX 3090">
+            <button class="btn minus-btn " type="button"><i class="fa fa-minus-circle"></i></button>
+            <input type="text" class="qtn" value="1">
+            <button class="btn plus-btn" type="button"><i class="fa fa-plus-circle"></i></button>
+            <div class="total-price">
+                <span><i class="fa fa-dollar"></i></span>
+                <p class="price">180DT</p>
+            </div>
+            <div class="PRAf">
+                <p>180</p>
+            </div>
+            <button><i class="fa fa-trash removeAll"></i></button>
+        </div>
+        <div class="quantity" id="main-quantity">
+            <p>Do you want to By This ?</p>
+            <button class="heart-btn" type="button"><i class="far fa-heart heart"></i></button>
+            <img src="https://assets.nvidia.partners/images/png/3070-ti-back-300x198.png" alt="RTX 3070Ti">
+            <button class="btn minus-btn " type="button"><i class="fa fa-minus-circle"></i></button>
+            <input type="text" class="qtn" value="1">
+            <button class="btn plus-btn" type="button"><i class="fa fa-plus-circle"></i></button>
+            <div class="total-price">
+                <span><i class="fa fa-dollar"></i></span>
+                <p class="price">420DT</p>
+            </div>
+            <div class="PRAf">
+                <p>420</p>
+            </div>
+            <button><i class="fa fa-trash removeAll"></i></button>
+        </div>
+        <div class="quantity" id="main-quantity">
+            <p>Do you want to By This ?</p>
+            <button class="heart-btn" type="button"><i class="far fa-heart heart"></i></button>
+            <img src="https://assets.nvidia.partners/images/png/3080-ti-back-300x198.png" alt="RTX 3080 Ti">
+            <button class="btn minus-btn " type="button"><i class="fa fa-minus-circle"></i></button>
+            <input type="text" class="qtn" value="1">
+            <button class="btn plus-btn" type="button"><i class="fa fa-plus-circle"></i></button>
+            <div class="total-price">
+                <span><i class="fa fa-dollar"></i></span>
+                <p class="price">140DT</p>
+            </div>
+            <div class="PRAf">
+                <p>140</p>
+            </div>
+            <button><i class="fa fa-trash removeAll"></i></button>
+        </div>
+
+        <div class="quantity last-section" id="main-quantity">
+            <p class="total-price-ALL">
+                Your Total Prix :
+                <span><i class="fa fa-dollar"></i></span>
+                <p><span id="ToPrix">0</span></p>
+            </p>
+        </div>
+    </section>
+    <!-- end of section -->
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
